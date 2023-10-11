@@ -60,7 +60,7 @@ window.onload = function () {
       }
     } else if (progress === "100%") {
       let n_prog = 100;
-      const timing = progress_bar.getAttribute("delay");
+      const timing = progress_bar.getAttribute("delay") / n_prog;
       doAnimation(
         progress_bar,
         n_prog,
