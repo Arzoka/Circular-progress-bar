@@ -30,6 +30,7 @@ window.onload = function () {
     progress_bar.style.display = "flex";
     progress_bar.style.justifyContent = "center";
     progress_bar.style.alignItems = "center";
+    progress_bar.style.flexDirection = "column";
     const backgroundColor = progress_bar.getAttribute("bg-color");
     const lineColor = progress_bar.getAttribute("line-color");
     const progress = progress_bar.getAttribute("progress");
