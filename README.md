@@ -8,7 +8,6 @@ Add ProgressBarHandler.js to your HTML and use it as following:
 
 ```html
 <div
-  class="r-progress"
   bg-color="#cddbcd"
   line-color="#548754"
   middle-color="#ffffff"
